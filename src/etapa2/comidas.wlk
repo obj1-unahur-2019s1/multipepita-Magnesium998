@@ -45,6 +45,11 @@ object canelones {
 		tieneSalsa = false 
 		tieneSalsa = true
 		}
+	
+	method completo() {
+		tieneSalsa = true 
+		tieneQueso = true
+	    }
 		
 	method energiaPorGramo() {
 		var valor = 20 
